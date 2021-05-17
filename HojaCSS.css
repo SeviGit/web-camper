@@ -41,13 +41,14 @@ q:before, q:after {
 
 body{
     font-size:94.5%;/*Tamaño letra*/
+    background-color: moccasin;
 }
 
 
 h1 {
     color: white;
     font: normal 2.4em verdana,geneva;
-    background: -webkit-linear-gradient(top, #5bae74,#0af97b);
+    background: -webkit-linear-gradient(top, #5bae74,#04361c);
     width: 400px;
     text-align: center;
     border-radius: 20px;
@@ -80,32 +81,59 @@ li {
 section{
     width:91%;
     border-top:2px solid grey;
+    border-bottom: 2px solid grey;
     margin:auto;
-    
 }
 
-#linea1{
-    float:left;
-    padding:20px;
 
-}
-
-#linea2 {
-    float: left;
-    padding: 20px;
-}
-
-#linea3 {
-    float: left;
-    padding: 20px;
-}
 figure img{
+    
     border-radius:15px;
     padding:3px;
     background-color:dimgrey;
+    transition: transform 0.2s ease-in-out 0.01s;
+    margin-top: 13px;
+    box-shadow: grey 5px 5px 10px;
+   
+
+    
+}
+figure{
+   float:left;
+ margin-left: 100px;
+    
+
 
 }
 
-#center {
+figure img:hover{
+
+    transform: scale(1.2);
+}
+
+ figcaption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
     text-align: center;
+    margin-top: 15px;
+}
+
+
+
+
+
+footer{
+    border-top:2px solid grey;
+    clear:left;
+    margin-top:700px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+  
+
+}
+footer p{
+    font:1.3em Georgia;
+    color: darkslategray;
+    
 }
